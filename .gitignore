@@ -1,0 +1,24 @@
+# Ignore environment variables
+.env
+
+# Ignore SQLite database file (contains sensitive data)
+chat_history.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
